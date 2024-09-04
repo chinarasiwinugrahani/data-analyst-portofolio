@@ -16,6 +16,7 @@ The data used in this project consists of several tables.
 | work            | work_id, name, artist_id, style, museum_id                                                 |
 
 ## Problem Statements
+This project aims to address the following issues.
 1.	Fetch all the paintings which are not displayed on any museums.
 2.	Are there museums without any paintings?
 3.	How many paintings have an asking price of more than their regular price?
