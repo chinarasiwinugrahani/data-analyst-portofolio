@@ -2,6 +2,19 @@
 
 This data analysis project utilizes the [Famous Painting](https://www.kaggle.com/datasets/mexwell/famous-paintings) dataset sourced from Kaggle. The analysis is done using MySQL, focusing on solving several problem statements obtained from the YouTube video [SQL Case Study techTFQ](https://www.youtube.com/watch?v=AZ29DXaJ1Ts).
 
+## About Data
+The data used in this project consists of several tables.
+| Table           | Column |
+| :-------------- | :--    |
+| artist          | artist_id, full_name, first_name, middle_name, last_name, nationality, style, birth, date  |
+| canvas_size     | size_id, width, height, laabel                                                             |
+| image_link      | work_id, url, thumbnail_small_url, thumbnail_large_url                                     |
+| museum          | museum_id, name, address, city, state, postal, country, phone, url                         |
+| museum_hours    | museum_id, day, open, close                                                                |
+| product_size    | work_id, size_id, sale_price, regular_price                                                |
+| subject         | work_id, subject                                                                           |
+| work            | work_id, name, artist_id, style, museum_id                                                 |
+
 ## Problem Statements
 1.	Fetch all the paintings which are not displayed on any museums.
 2.	Are there museums without any paintings?
