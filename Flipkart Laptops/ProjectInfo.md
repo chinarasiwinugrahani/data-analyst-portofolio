@@ -11,8 +11,8 @@ This dataset with 960 rows and 10 columns was created to provide a comprehensive
 | Product Image            | A visual representation of the product |
 | Description              | A detailed information about the product's specification |
 | Link                     | A URL pointing to the product's page |
-| Actual Price             | The original or full price of the product |
-| Discount Price           | The reduced price of the product after applying a discount |
+| Actual Price             | The original or full price of the product (₹ INR) |
+| Discount Price           | The reduced price of the product after applying a discount (₹ INR) |
 | Stars                    | The product's overall rating (on a scale of 0 to 5) |
 | Rating                   | The number of customer rating for the product |
 | Reviews                  | The number of customer reviews, opinion, or experiences with the product |
