@@ -13,7 +13,7 @@ This dataset with 960 rows and 10 columns was created to provide a comprehensive
 | Link                     | A URL pointing to the product's page |
 | Actual Price             | The original or full price of the product |
 | Discount Price           | The reduced price of the product after applying a discount |
-| Stars                    | The product's overall rating |
+| Stars                    | The product's overall rating (on a scale of 0 to 5) |
 | Rating                   | The number of customer rating for the product |
 | Reviews                  | The number of customer reviews, opinion, or experiences with the product |
 
